@@ -12,8 +12,6 @@
 /* 모바일용 여백은 20px이나 16px */
 
 /* header */
-/* #header {height: 100px; background: #ddd;} */
-
 #header .header-data {
     font-weight: 600;
     font-size: 12px;
@@ -24,9 +22,12 @@
 #header .header-title {
     font-weight: bold;
     font-size: 32px;
+    border-bottom: 1px solid #ebebeb;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
 }
 #header .header-id {
-    position: absolute; right: 0; bottom: 5px;
+    position: absolute; right: 0; bottom: 10px;
     width: 40px;
     height: 40px;
     /* line-height: 40px; */
@@ -42,6 +43,17 @@
     text-transform: uppercase;
     background: linear-gradient(180deg, #A4A9B5 0%, rgba(164, 169, 181, 0) 100%), #C4C4C4;
 }
+
+
+/*  bestM */
+.bestM .best-title .bt-stit {font-size: 12px; color: #da5e7c; line-height: 1.67;}
+.bestM .best-title .bt-tit {font-size: 22px; padding-bottom: 5px;}
+.bestM .best-title .bt-desc {font-size: 22px; font-weight: 300; color: #818181; margin-bottom: 10px;}
+.bestM {}
+.bestM {}
+.bestM {}
+.bestM {}
+.bestM {}
 
 
 /*  midiaquery */
