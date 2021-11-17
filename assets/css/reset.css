@@ -14,7 +14,6 @@ body {
     word-break: break-all;
     -webkit-text-size-adjust: none /* 아이폰 가로 모드 */
 }
-html {font-size: 10px;line-height: 15px}
 table {border-collapse: collapse}
 fieldset, img {border: 0}
 ol, ul { list-style: none}
