@@ -66,9 +66,8 @@
 
 /* nextM */
 .nextM {margin-bottom: 130px;}
-.next-wrap {}
 .nextM h2 {font-size: 20px; font-weight: bold; margin-bottom: 12px; margin-top: 16px; border-top: 1px solid #ebebeb; padding-top: 20px;}
-.nextM .next {display: flex; margin-bottom: 16px; position: relative;}
+.nextM .next {display: flex; margin-bottom: 16px; position: relative; padding: 0 1% 0 1%;}
 .nextM .next::after {
     content: "";
     position: absolute; right: 0; bottom: -8px;
