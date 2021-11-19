@@ -55,10 +55,10 @@
 /*  recentM */
 .recentM {padding: 10px 0; margin-top: 10px; overflow: hidden;}
 .recentM .recent {float: left; width: 49%; 
-    padding-right: 2%;
+    padding: 0 1% 0 1%;
     box-sizing: border-box;
 }
-.recentM .recent:last-child {padding-right: 0;}
+/* .recentM .recent:last-child {padding-right: 0;} */
 .recentM h2 {font-size: 20px; font-weight: bold; margin-bottom: 12px; margin-top: 16px; border-top: 1px solid #ebebeb; padding-top: 20px;}
 .recentM .recent .recent-title .rt-stit {font-size: 15px; line-height: 1.9;}
 .recentM .recent .recent-title .rt-desc {font-size: 15px; color: #908f94; font-weight: 300;}
@@ -66,6 +66,7 @@
 
 /* nextM */
 .nextM {margin-bottom: 130px;}
+.next-wrap {}
 .nextM h2 {font-size: 20px; font-weight: bold; margin-bottom: 12px; margin-top: 16px; border-top: 1px solid #ebebeb; padding-top: 20px;}
 .nextM .next {display: flex; margin-bottom: 16px; position: relative;}
 .nextM .next::after {
@@ -75,7 +76,7 @@
     height: 1px;
     background: #ebebeb;
 }
-.nextM .next-wrap {width: 100%;}
+/* .nextM .next-wrap {padding-right: 1%;} */
 .nextM .next .next-img {width: 102px; margin-right: 12px;}
 .nextM .next .next-tit {display: flex; flex-direction: column; justify-content: center;}
 .nextM .next .next-tit .nt-stit {font-size: 12px; color: #da5e7c;}
